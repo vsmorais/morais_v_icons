@@ -1,34 +1,25 @@
-
-
-.hidden {display: none;}
-
-main {
-	width: 960px;
-	padding: 0 10px 10px 0;
-	margin: 0 auto;
-	/*border is temp -> just to ee site dimension */
-	border: thin dashed #333;
-	
+body{
+	font-size: 16px;
 }
-#main-header {
+.hidden{display: none;}
+
+.main-headline{
+	text-align: center;
+	margin: 20px 0 30px;
+	font-size: 2.5rem;
+
+}
+#raster-vector h3 {margin: 20px; text-align: center;}
+
+#image-container {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 }
-#main-nav{
-	height: 40px;
-	width: 290px;
-	background-color: #555434;
-	margin-bottom: 20px;
-}
-#sub-nav{
-	height: 40px;
-	width: 650px;
-	background-color: #23550b;
 
-}
-#logo {
-	margin-left: auto;
-	height: 100px;
-	width: 250px;
-	background-color: #f0aeae;
+#image-container img {
+	width: 30%;
+	min-width: 155px;
+	max-width: 375px;
+	align-self: center;
 }
