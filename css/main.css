@@ -23,3 +23,12 @@ body{
 	max-width: 375px;
 	align-self: center;
 }
+
+/*  inline SVG css styles*/
+
+#badge{
+	cursor: pointer;width: 30%;
+}
+.st0:hover {opacity:1;fill:#FFFFFF;}
+
+#RED_x5F_compound:hover {width: 50%;}
