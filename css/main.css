@@ -32,3 +32,6 @@ body{
 .st0:hover {opacity:1;fill:#FFFFFF;}
 
 #RED_x5F_compound:hover {width: 50%;}
+
+
+.selected {color: blue important;}
