@@ -16,9 +16,6 @@
 		swapTextButton = document.querySelector(".switch-type"),
 		allImages = document.querySelectorAll("#image-container img"),
 		objectButton = document.querySelector(".container button");
-
-	
-
 	
 
 	// functions are reusable pieces of code
